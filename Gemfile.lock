@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/BaseSecrete/rorvswild.git
+  revision: 1ccb5c8fdaa8bf16a44fae26e16051b3251a6edd
+  ref: 1ccb5c8fdaa8bf16a44fae26e16051b3251a6edd
+  specs:
+    rorvswild (1.5.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -149,7 +156,6 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
-    rorvswild (1.5.9)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -235,7 +241,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.3)
-  rorvswild (= 1.5.9)
+  rorvswild!
   rspec
   rspec-rails
   sass-rails (>= 6)

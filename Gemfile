@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
-gem 'rorvswild', '1.5.9'
+gem 'rorvswild', git: 'https://github.com/BaseSecrete/rorvswild.git', ref: '1ccb5c8fdaa8bf16a44fae26e16051b3251a6edd'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
